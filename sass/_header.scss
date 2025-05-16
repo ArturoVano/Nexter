@@ -25,7 +25,10 @@
 
     &__seenon-text {
       display: grid;
-      grid-template-columns: 1fr min-content 1fr;
+      grid-template-columns: 1fr max-content 1fr;
+      grid-gap: 1.5rem;
+      align-items: center;
+      
       font-size: 1.6rem;
       color: $color-grey-light-2;
 
